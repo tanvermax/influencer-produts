@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.logo {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.nav_ver {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 140px;
+}
+
+.nav_list li {
+    margin: 0;
+    padding: 10px;
+    display: inline;
+    /* text-align: center;
+    align-items: center; */
+    align-content: center;
+
+}
+
+.nav_list li a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+#cart {
+    height: 27px;
+    width: 32px;
+    position: relative;
+    top: 10px;
+}
+
+/* main      */
+
+main {
+    margin-left: 139px;
+    margin-right: 153px;
+}
+
+/* 1st section */
+.journy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_c {
+    background-image: url("images/Circle\ design.svg");
+    background-size: 550px 550px;
+    height: 550px;
+    width: 550px;
+}
+
+.main_cam {
+    position: relative;
+    top: 40px;
+    left: 30px;
+    height: 480px;
+    width: 500px;
+}
+
+.start {
+    width: 670px;
+}
+
+.start_t {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.start_des {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+/* button */
+.Prebook {
+    border-radius: 41px;
+
+    background: rgb(224, 44, 109);
+    border-radius: 30px;
+    border: none;
+    height: 51px;
+    width: 225px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.right_c {
+    position: relative;
+    left: 10px;
+    top: 3px;
+}
+
+/* 2nd secton */
+.sec_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social_sec {
+    margin: 120px 0px;
+}
+
+/* 5start */
+:root {
+    --star-size: 20px;
+    --star-color: #fff;
+    --star-background: #fc0;
+}
+
+.Stars {
+    --percent: calc(var(--rating) / 5 * 100%);
+
+    display: inline-block;
+    font-size: var(--star-size);
+    font-family: Poppins;
+    /* make sure ★ appears correctly */
+    line-height: 1;
+
+    &::before {
+        content: '★★★★★';
+        letter-spacing: 3px;
+        background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+/* // Just to make a preview more beautifull */
+
+/* body {
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+* {
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* --------------------- */
+
+
+.item_container {
+    display: grid;
+    gap: 34px;
+    grid-template-columns: auto auto auto;
+}
+
+.item {
+    padding: 19px 15px;
+border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.item img {
+    width: 100%;
+}
+
+.titlw {
+    color: rgb(24, 25, 31);
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+}
+
+.amount {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.item_des {
+    color: rgb(120, 120, 133);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 1.8%;
+    text-align: left;
+    width: 220px;
+}
